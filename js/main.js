@@ -1,8 +1,8 @@
 const mainText = "Halo, saya Ivandi Lukito Saputro";
 const jobs = [
   "Frond-End Development",
-  "Responsive Desaind",
-  "Databases"
+  "Responsive Design",
+  "Database Administrator"
 ];
 
 let i = 0;

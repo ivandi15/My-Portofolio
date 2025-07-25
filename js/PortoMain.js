@@ -50,7 +50,7 @@
   });
   
   // Animasi ketikan bergantian di section About Me
-  const words = ["Front-end Development", "Responsive Design", "Databases"];
+  const words = ["Front-end Development", "Responsive Design", "Database Administrator"];
     let i = 0;
     let j = 0;
     let currentWord = '';
