@@ -1,0 +1,60 @@
+body {
+      background: linear-gradient(135deg, #0ff 0%, #00f 100%);
+      font-family: Arial, sans-serif;
+    }
+    .header {
+      background: linear-gradient(90deg, #6366f1, #a21caf, #ec4899);
+      color: white;
+      padding: 1rem;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 0;
+    }
+    .portfolio-container {
+      max-width: 600px;
+      margin: auto;
+      text-align: center;
+      position: relative; /* Penting agar absolute button merujuk ke sini */
+      padding-top: 60px;
+    }
+    .profile-img {
+      width: 300px;        
+      height: 370px;       
+      object-fit: cover;
+      border-radius: 50%;  /* Membuat bentuk oval */
+      border: 5px solid #dc3545;
+      margin-bottom: 1rem;
+      margin-top: 2rem;
+    }
+    .btn-custom {
+      border-radius: 10px;
+      min-width: 120px;
+    }
+    .scroll-button-wrapper {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: thin;
+      width: 100%;
+    }
+    .scroll-button-wrapper::-webkit-scrollbar {
+      display: block;
+      height: 8px;
+    }
+    .hover-link:hover {
+      background: linear-gradient(90deg, #6366f1, #a21caf, #ec4899);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-decoration: underline !important;
+      cursor: pointer;
+    }
+    .gradient-btn {
+      background: linear-gradient(90deg, #6366f1, #a21caf, #ec4899);
+      color: white;
+      border: none;
+    }
+
+    .gradient-btn:hover {
+      opacity: 0.9;
+      color: white;
+    }
